@@ -96,8 +96,6 @@ h4 {
 }
 
 #product {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 100vh;
   background-image: url(./index.jpg);
@@ -106,14 +104,135 @@ h4 {
 }
 
 .pd-container {
-  display: flex;
-  justify-content: center;
+  width: 75%;
+  display: block;
+  margin-left: 20%;
+  transform: rotate(-5deg);
 }
 
 .pd-top {
-  width: 60%;
+  width: 82%;
+  height: 42vh;
+  background-color: #a8aeb1;
+  border-radius: 2rem;
+  margin-top: 15%;
+  ;
+}
+
+#pd-hr {
+  display: flex;
+  width: 15%;
+  margin: -1em 0 0 44%
+}
+
+.pd-bg {
+  width: 80%;
   height: 40vh;
   background-color: #fff;
   border-radius: 2rem;
   text-align: center;
+  margin: -16rem 0 0 .6rem;
+  transform: rotate(5deg);
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.fa-code:hover {
+  transform: scaleY(1.2);
+  transition: .3s
+}
+
+.fa-heart:hover {
+  color: red;
+}
+
+#footer-a:hover {
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  .navbar {
+    text-align: center;
+  }
+
+ #title {
+   width: 100%;
+   text-align: center;
+ }
+
+  #features {
+    width: 100%;
+    padding: 3%;
+  }
+
+  .feat-row {
+    width: 100%;
+    margin-left: 28.5%;
+  }
+
+  .text-white {
+    margin-left: 40%;
+  }
+
+  .hr {
+    width: 35%;
+    margin-left: 36%;
+  }
+
+  .title-row {
+    width: 100%;
+  }
+
+  .feat-icon {
+    color: #5e7266;
+    background-color: #fff;
+    width: 6rem;
+    height: 6rem;
+    font-size: 25px;
+    transform: rotate(50deg);
+    box-shadow: 3px 0 3px 0 grey;
+    margin-top: 5%;
+  }
+
+  .feat-text {
+    margin-left: -15%;
+  }
+
+  .about-row {
+    width: 100%;
+    padding: 10%;
+  }
+
+  #product {
+    height: 70vh;
+    background-size: auto;
+  }
+
+  .pd-container {
+    width: 70%;
+    margin-top: 15%;
+  }
+
+  .pd-top {
+    width: 89%;
+    height: 52vh;
+    margin-bottom: -29rem;
+  }
+
+
+  .pd-bg {
+    width: 85%;
+    height: 50vh;
+  }
+
+  #pd-hr {
+    width: 8rem;
+    margin-left: 30%;
+  }
+
 }
