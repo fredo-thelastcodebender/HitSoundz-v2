@@ -163,11 +163,13 @@ footer {
  #title {
    width: 100%;
    text-align: center;
+   margin-left: 2%;
  }
 
   #features {
     width: 100%;
     padding: 3%;
+    margin-left: -5%;
   }
 
   .feat-row {
