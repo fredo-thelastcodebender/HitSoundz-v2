@@ -217,6 +217,10 @@ footer {
   .about-img {
     margin-left: 5%;
   }
+
+  #spec-col {
+    margin-left: -1.2%;
+  }
   h4 {
     font-size: 150%;
     margin-left: 8%;
