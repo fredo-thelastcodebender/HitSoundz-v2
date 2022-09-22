@@ -167,7 +167,7 @@ footer {
  }
 
   #features {
-    width: 100%;
+    width: 110%;
     padding: 3%;
     margin-left: -5%;
   }
@@ -183,7 +183,7 @@ footer {
 
   .hr {
     width: 35%;
-    margin-left: 36%;
+    margin-left: 38%;
   }
 
   .title-row {
@@ -205,9 +205,19 @@ footer {
     margin-left: -15%;
   }
 
+  h3 {
+    margin-left: 5%;
+  }
+
   .about-row {
     width: 100%;
     padding: 10%;
+  }
+
+
+  h4 {
+    font-size: 150%;
+    margin-left: 8%;
   }
 
   #product {
