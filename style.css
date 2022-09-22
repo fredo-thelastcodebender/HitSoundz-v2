@@ -214,7 +214,9 @@ footer {
     padding: 10%;
   }
 
-
+  .about-img {
+    margin-left: 5%;
+  }
   h4 {
     font-size: 150%;
     margin-left: 8%;
@@ -245,6 +247,13 @@ footer {
   #pd-hr {
     width: 8rem;
     margin-left: 30%;
+  }
+
+  .fa-heart {
+    color: red;
+  }
+  .fa-heart:hover {
+    color: red;
   }
 
 }
