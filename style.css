@@ -16,6 +16,10 @@ nav {
   font-family: sans-serif;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 #airpod-img {
   width: 100%;
 }
@@ -119,12 +123,6 @@ h4 {
   ;
 }
 
-#pd-hr {
-  display: flex;
-  width: 15%;
-  margin: -1em 0 0 44%
-}
-
 .pd-bg {
   width: 80%;
   height: 40vh;
@@ -133,6 +131,12 @@ h4 {
   text-align: center;
   margin: -16rem 0 0 .6rem;
   transform: rotate(5deg);
+}
+
+#pd-hr {
+  display: flex;
+  width: 15%;
+  margin: -1em 0 0 44%
 }
 
 footer {
@@ -152,9 +156,10 @@ footer {
 #footer-a:hover {
   text-decoration: none;
 }
+                                                                          /* RESPONSIVE DESIGNS */
 
-
-@media (max-width: 575.98px) {
+/* Extra small devices (portrait phones, less than 524px) */
+@media (max-width: 524px) {
 
   .navbar {
     text-align: center;
@@ -167,9 +172,9 @@ footer {
  }
 
   #features {
-    width: 110%;
-    padding: 3%;
-    margin-left: -5%;
+    width: 105%;
+    padding: 5%;
+    margin-left: -7%;
   }
 
   .feat-row {
@@ -182,8 +187,8 @@ footer {
   }
 
   .hr {
-    width: 35%;
-    margin-left: 38%;
+    width: 12rem;
+    margin-left: 35%;
   }
 
   .title-row {
@@ -218,46 +223,429 @@ footer {
     margin-left: 5%;
   }
 
-  #spec-col {
-    margin-left: -1.2%;
-  }
+
   h4 {
     font-size: 150%;
     margin-left: 8%;
   }
 
+  #spec-h6 {
+    font-size: 18px;
+    margin-left: 40%;
+  }
+
   #product {
-    height: 70vh;
+    height: 40rem;
     background-size: auto;
   }
 
   .pd-container {
     width: 70%;
-    margin-top: 20%;
+    margin-top: 22%;
   }
 
   .pd-top {
     width: 89%;
-    height: 52vh;
+    height: 27rem;
     margin-bottom: -29rem;
   }
 
 
   .pd-bg {
     width: 85%;
-    height: 50vh;
+    height: 26.5rem;
+    margin-top: 2.2rem;
   }
 
   #pd-hr {
     width: 8rem;
-    margin-left: 30%;
+    margin-left: 27%;
   }
 
   .fa-heart {
     color: red;
   }
-  .fa-heart:hover {
+
+}
+
+/* Small devices (landscape phones between 525px and 658px ) */
+@media (min-width: 525px) and (max-width: 658px) {
+  .navbar {
+    text-align: center;
+  }
+
+  #title {
+   width: 100%;
+   text-align: center;
+   margin-left: 2%;
+  }
+
+.ft-header  {
+  margin-left: -17%;
+}
+.ft-header h3 {
+    margin-left: 7%;
+  }
+.text-white {
+  font-size: 22px;
+  width: 5.8em;
+  padding: .5%;
+}
+
+.hr {
+  width: 11rem;
+  margin-left: 43%;
+}
+
+.feat-row {
+  margin-left: 28%;
+}
+
+.feat-icon {
+  color: #5e7266;
+  background-color: #fff;
+  width: 7rem;
+  height: 7rem;
+  font-size: 25px;
+  transform: rotate(50deg);
+  box-shadow: 3px 0 3px 0 grey;
+  margin-top: 5%;
+}
+
+.feat-text {
+  margin-left: -14%;
+}
+
+#spec-col {
+  margin-left: 2.5%;
+}
+
+#spec-h6 {
+  font-size: 20px;
+}
+
+#spec-hr {
+  margin-left: 33%;
+}
+
+#product {
+  height: 35rem;
+  background-size: auto;
+}
+.pd-container {
+  margin-top: 25%;
+}
+.pd-bg {
+  height: 22.7rem;
+ margin-top: -23rem;
+}
+
+.pd-top {
+  height: 23rem;
+}
+
+#pd-hr {
+  width: 8rem;
+  margin-left: 30%;
+}
+
+.fa-heart {
+  color: red;
+}
+
+}
+
+/* Medium devices (tablet between 659px and 788px) */
+@media (min-width: 659px) and (max-width: 788px)  {
+  .navbar {
+    text-align: center;
+  }
+
+  #title {
+   width: 100%;
+   text-align: center;
+   margin-left: 1%;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  #features {
+    margin-left: .8%;
+  }
+
+  .text-white {
+    font-size: 22px;
+    width: 5.8em;
+    padding: .5%;
+  }
+
+  .feat-row {
+    margin-left: 26%;
+  }
+  .ft-header  {
+    margin-left: -17%;
+  }
+
+  .ft-header h3 {
+    margin-left: 7%;
+  }
+
+  .hr {
+    width: 11rem;
+    margin-left: 44%;
+  }
+
+  .feat-icon {
+    color: #5e7266;
+    background-color: #fff;
+    width: 8rem;
+    height: 8rem;
+    font-size: 25px;
+    transform: rotate(50deg);
+    box-shadow: 3px 0 3px 0 grey;
+    margin-top: 5%;
+  }
+
+  .feat-text {
+    margin-left: -9%;
+  }
+  #spec-col {
+    margin-left: 4%;
+  }
+
+  #spec-h6 {
+    font-size: 22px;
+    margin-left: 40%;
+  }
+
+  #spec-hr {
+    margin-left: 36%;
+  }
+
+
+  #product {
+    height: 35rem;
+    background-size: auto;
+  }
+
+  .pd-container {
+    margin-top: 18%;
+  }
+
+  .pd-top {
+    height: 18rem;
+  }
+
+  .pd-bg {
+    height: 17.5rem;
+    margin-top: -18rem;
+  }
+
+  #pd-hr {
+    width: 8rem;
+    margin-left: 35%;
+  }
+
+  .fa-heart {
     color: red;
   }
 
+}
+
+/* Medium devices ( devices,tablet between 790px and 990px) N.B: I did this for better customization of the responsiveness. */
+@media (min-width: 790px) and (max-width: 990px) {
+  h1 {
+    font-size: 78px;
+  }
+  #title {
+   width: 100%;
+   text-align: center;
+   margin-left: 2%;
+  }
+  .ft-header  {
+    margin-left: -11%;
+  }
+
+
+  .text-white {
+    font-size: 26px;
+    width: 5.8em;
+    padding: .5%;
+  }
+
+  .ft-header h3 {
+    margin-left: 7%;
+  }
+
+  .hr {
+    width: 11rem;
+    margin-left: 45%;
+  }
+
+  .feat-row {
+    margin-left: 30%;
+  }
+
+  .feat-icon {
+    color: #5e7266;
+    background-color: #fff;
+    width: 8.5rem;
+    height: 8.5rem;
+    font-size: 25px;
+    transform: rotate(50deg);
+    box-shadow: 3px 0 3px 0 grey;
+    margin-top: 5%;
+  }
+
+  .feat-text {
+    margin-left: -7%;
+  }
+
+  #spec-col {
+    margin-left: 8.5%;
+  }
+
+  #spec-h6 {
+    font-size: 22px;
+    margin-left: 40%;
+  }
+
+  #spec-hr {
+    margin-left: 38%;
+  }
+
+  .about-text {
+    margin-left: -3%
+  }
+
+  #product {
+    height: 40rem;
+    background-size: auto;
+  }
+
+  .pd-container {
+    margin-top: 18%;
+  }
+
+  .pd-top {
+    height: 17rem;
+  }
+
+  .pd-bg {
+    height: 16.5rem;
+    margin-top: -17rem;
+}
+
+#pd-hr {
+  width: 8rem;
+  margin-left: 38%;
+}
+
+
+.fa-heart {
+  color: red;
+}
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+.th {
+  margin-top: 7%;
+}
+
+.hr {
+    width: 11rem;
+    margin-left: 44%;
+  }
+
+  .feat-row {
+    margin-left: -5%;
+  }
+
+  .feat-icon {
+    color: #5e7266;
+    background-color: #fff;
+    width: 7rem;
+    height: 7rem;
+    font-size: 25px;
+    transform: rotate(50deg);
+    box-shadow: 3px 0 3px 0 grey;
+    margin-top: 5%;
+  }
+
+  .feat-text {
+    margin-left: -24%;
+  }
+
+  .wf-text  {
+    width: 12.5rem;
+    margin-left: -23%;
+  }
+
+  #spec-h6 {
+    font-size: 22px;
+    margin-left: 40%;
+  }
+
+  #spec-hr {
+    margin-left: 36%;
+  }
+
+  #product {
+  height: 40rem;
+  background-size: auto;
+}
+
+.pd-container {
+  margin-top: 18%;
+}
+
+.pd-top {
+  height: 18rem;
+}
+
+.pd-bg {
+  height: 17.5rem;
+  margin-top: -18rem;
+}
+
+#pd-hr {
+  width: 8rem;
+  margin-left: 42%;
+}
+
+.fa-heart {
+  color: red;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1201px) {
+  #product {
+  height: 40rem;
+  background-size: auto;
+}
+
+.pd-container {
+  margin-top: 18%;
+}
+
+.pd-top {
+  height: 18rem;
+}
+
+.pd-bg {
+  height: 17.5rem;
+  margin-top: -17.5rem;
+}
+
+#pd-hr {
+  width: 8rem;
+  margin-left: 42%;
+}
 }
